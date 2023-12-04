@@ -19,8 +19,8 @@ TCP communication, and a simple web server. Implementations and documentation wi
     - server.py: socket programing solution
 
 ## Notes
-- Use socket programming only.
+- Used socket programming only.
 - Each screenshot includes the date and time of the computer.
 - Find a report in pdf format on _report.pdf_ that contains Screenshots with detailed explanation, codes, runs, etc.
--The code with comments (include the code in the pdf file and as text file .py)
+- The code with comments (include the code in the pdf file and as text file .py)
 - The github repo link is included in the link pdf.
