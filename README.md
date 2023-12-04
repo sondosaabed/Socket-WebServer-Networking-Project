@@ -1,5 +1,22 @@
 # Socket-WebServer-Networking-Project
-TCP communication, and a simple web server. Implementations and documentation with socket programming concepts
+This repository is part of the course work of Computer-Networks.
+TCP communication, and a simple web server. Implementations and documentation with socket programming concepts.
+
+## Structure
+- This repo. Consists of Two folders:
+  - <b>notebooks:</b>
+    - hints: given in the reqs.
+    - part1 of the project
+    - part2 of the project
+    - part3 of the project
+    - testing notebook (used to report)
+      
+  - <b>src: source code</b>
+    - ar: arabic html pages
+    - en: english html pages
+    - css: styles sheets
+    - images: two images (png, jpg)
+    - server.py: socket programing solution
 
 ## Notes
 - Use socket programming only.
