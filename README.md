@@ -3,20 +3,26 @@ This repository is part of the course work of Computer-Networks.
 TCP communication, and a simple web server. Implementations and documentation with socket programming concepts.
 
 ## Structure
-- This repo. Consists of Two folders:
-  - <b>notebooks:</b>
-    - hints: given in the reqs.
-    - part1 of the project
-    - part2 of the project
-    - part3 of the project
-    - testing notebook (used to report)
-      
-  - <b>src: source code</b>
-    - ar: arabic html pages
-    - en: english html pages
-    - css: styles sheets
-    - images: two images (png, jpg)
-    - server.py: socket programing solution
+- The project solution is devided into three parts:
+  - <b>Part-1:<b>
+    - <b>Notebook:</b>: solution of part 1
+    - <b>Screenshots</b>: outputs from running commands
+  
+  - <b>Part-2:<b>
+    - <b>Notebook:</b> solution for the questions.
+    - <b>src: source code</b>
+      - client.py & server.py: socket solution.
+      - find.png: image used  in the form
+      - style.css: styling for the form
+
+  - <b>Part-3:<b>
+    - <b>Notebook:</b> solution for the questions.
+    - <b>src: source code</b>
+      - ar: arabic html pages
+      - en: english html pages
+      - css: styles sheets
+      - images: two images (png, jpg)
+      - server.py & client.py: socket programing solution
 
 ## Notes
 - Used socket programming only.
