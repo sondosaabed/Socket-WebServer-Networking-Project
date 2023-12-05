@@ -1,0 +1,32 @@
+*{
+    padding: 20px;
+    text-align: center;
+    color: #36344E;
+}
+
+body{
+    background-color: white;
+}
+
+label{
+    padding: 2em;
+    font-size: 1.5em;
+}
+
+input {
+    background-color: #6C63FF;
+    padding: 0.8em;
+    font-size: 1.5em;
+
+    color: white;
+    position: block;
+
+    margin: 0.8em;    
+    border-radius: 30px;
+    border-color: transparent;
+}
+
+img {
+    height: 30%;
+    width: 30%;
+}
