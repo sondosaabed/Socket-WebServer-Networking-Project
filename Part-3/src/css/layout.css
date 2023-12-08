@@ -1,0 +1,99 @@
+/* this CSS rules gives the page layout its look */ 
+
+html *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font: 14px Arial, Helvetica, sans-serif;
+    background-color: gainsboro;
+}
+
+header{
+    background-color:black;
+    width: 100%;
+    height: 12%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 250px;
+    margin: auto;
+}
+/**This is the id for my navigation bar as i have two navigation bars
+One for the website Student trainging, 
+the other was demanded for the main and assignments**/
+#web{
+    display: inline-flex;
+    justify-content: space-between;
+}
+#web a, #web a:visited{
+    color: white;
+    text-decoration: none;
+    padding: 27px 25px;
+    font-size: 1.1em;
+    font-weight: 750;
+}
+#web a:hover{
+    color:  white;
+    background-color: blueviolet;
+    text-decoration: none;
+}
+#assignment{
+    display: inline-flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+#assignment a, #assignment a:visited{
+    text-decoration: none;
+    color: black;
+    padding: 27px 25px;
+    width: 30%;
+    height: 110%;
+    font-size: 1em;
+    font-weight: 700;
+    transition: 0.5s ease;
+    background-color: gainsboro;
+    text-align: center;
+}
+
+#assignment a:hover{
+    color:  white;
+    background-color: blueviolet;
+    transform: scale(1);
+}
+main{
+    padding: 25px 0px;
+    color: white;
+}
+section{
+    padding: 150px 200px;
+    margin-bottom: 50px;
+}
+aside{
+    width: 30%;
+    padding: 25px;
+    float: right;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 550;
+    font-style: italic;
+}
+footer{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px 200px;
+    color: white;
+}
+
+section{
+    margin: 3.5em;
+}

@@ -1,32 +1,137 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-    margin: 0;
-}
-
-header {
-    background-color: #4CAF50;
-    color: white;
+p.error-message {
+    color: #ff0000;
+    font-size: 1.5em;
+    font-weight: bold;
     text-align: center;
-    padding: 10px;
 }
 
-h1, h2 {
-    color: #4CAF50;
+#s404 img{
+    height: 40%;
+    width: 40%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+#name{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 1.5em;
+    text-align: left;
+    margin: 10px;
+}
+footer{
+    background-color: black;
+}
+
+#point0{
+    background-color: white;
+}
+
+#point0 h1, #point0 h2, #point0 p{
+    color: black;
+}
+#welcome span{
+    display: inline-block;
+    color: azure;
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+#welcome h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing:  1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#welcome button{
+    background-color: blueviolet;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 13px;
+    margin-bottom: 14px;
+    transition: 0.7s ease;
+}
+
+#welcome button:hover{
+    transform: scale(1.1);
+}
+
+#welcome img{
+    max-width: 100%;
+    position: relative;
+    bottom: 60px;
+    float: right;
+    margin-left: 20px;
+    margin-top: 60px;
+    height: 20em;
+    width: 20em;
+    order: 2;
+}
+
+#welcome a{
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 1.3em;
+    font-weight: 750;
+}
+
+#welcome a:hover{
+    color:  white;
+}
+
+#about{
+    background-color: white;
+}
+#about h2{
+    color: black;
+}
+#about span{
+    display: inline-block;
+    color: blueviolet;
+    font-size: 1.7em;
+    font-weight: 600;
+}
+#about p{
+    font-size: 1.2em;
+    padding-left: 50px;
+    text-align: justify;
+    color: black;
+}
+
+section h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    color: blueviolet;
 }
 
 section {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    margin: 10px;
+    background-color: black;
     padding: 20px;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+#courses h2{
+    color: black;
+}
+
+#voluntary, #projects, #courses, #contact{
+    background-color: white;
+}
+
+#voluntary h2, #projects h2, #courses h2, #contact h2{
+    color: black;
 }
 
 a {
@@ -36,4 +141,61 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+#hobies{
+    display: flex;
+    overflow: scroll;
+}
+#hobies img{
+    display: table;
+    text-align: center;
+    margin-left: 70px;
+    transition: 0.7s ease;
+    width: auto;
+    height: 200px;
+}
+
+#hobies img:hover{
+    transform: scale(1.1);
+}
+
+footer a img{
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+}
+
+nav a img{
+    height: 30px;
+    width: auto;
+}
+
+#servicies {
+    display: flex;
+    overflow: scroll;
+}
+#servicies h2{
+    display: block;
+    text-align: center;
+}   
+#servicies figure{
+    display: table;
+    text-align: center;
+    transition: 0.7s ease;
+    margin: 35px;
+    margin-top: 100px;
+}
+#servicies figure:hover{
+    transform: scale(1.1);
+}
+#servicies figure img{
+    width: 130px;
+    height: 130px;
+}
+#servicies figure figcaption{
+    color: white;
+    font-size: 1.7em;
+    font-weight: 600;
+    display: table-caption;
+    caption-side: bottom;
 }
