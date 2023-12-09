@@ -12,14 +12,27 @@ p.error-message {
     display: block;
     margin: 0 auto;
 }
-
+h1, h2, h3 {
+    font-weight: 700; 
+}
 #name{
     text-decoration: none;
     color: white;
     font-weight: 800;
     font-size: 1.5em;
     text-align: left;
-    margin: 10px;
+    margin: 0 0 0 20px;
+}
+
+#profile {
+    border-radius: 50%;
+    width: 200px; 
+    height: 200px;
+    object-fit: cover;
+}
+#profile:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
 }
 footer{
     background-color: black;
@@ -84,9 +97,28 @@ footer{
     font-size: 1.3em;
     font-weight: 750;
 }
-
+#welcome h2{
+    color: gainsboro;
+}
 #welcome a:hover{
-    color:  white;
+    color:  blueviolet;
+}
+#welcome, #servicies, #competitions{
+    border: white 100px solid;
+}
+#about{
+    border: blueviolet 20px solid;
+}
+#projects, #hobies, #education{
+    border: #007BFF 50px solid;
+}
+
+#hobies{
+    background-color: white;
+}
+
+#about p span{
+    color: #007BFF;
 }
 
 #about{
@@ -150,9 +182,10 @@ footer a img{
 }
 
 nav a img{
-    height: 30px;
-    width: auto;
+    height: 20px;
+    width: 20px;
 }
+
 #servicies h2{
     display: block;
     text-align: center;
@@ -169,14 +202,17 @@ nav a img{
 #servicies figure{
     text-align: center;
     transition: 0.7s ease;
-    margin: 15px;
+    margin: 15px 15px;
 }
 #servicies figure:hover{
     transform: scale(1.1);
 }
 #servicies figure img{
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
+    border: #007BFF 5px solid;
+    background-color: white;
+    padding: 25px;
 }
 #servicies figure figcaption{
     color: white;
@@ -187,7 +223,7 @@ nav a img{
 #hobies figure{
     text-align: center;
     transition: 0.7s ease;
-    margin: 15px;
+    margin: 15px 15px;
 }
 #hobies figure:hover{
     transform: scale(1.1);
@@ -197,10 +233,31 @@ nav a img{
     height: 320px;
 }
 #hobies figure figcaption{
-    color: white;
+    color: black;
     font-size: 1.7em;
     font-weight: 600;
     caption-side: bottom;
     text-align: center;
-    margin-top: 30px;
+}
+
+#hobies #table{
+    background-color: white;
+    border: 7px solid black;
+    border-left: none;
+    border-right: none;
+    padding:  50px 0 30px 0;
+}
+
+#servicies #table{
+    background-color: black;
+    border: 7px solid white;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: gainsboro;
+    padding:  50px 0 30px 0;
+}
+
+#point0 span{
+    color: #007BFF;
+    font-size: xx-large;
 }
