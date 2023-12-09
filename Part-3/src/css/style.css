@@ -142,22 +142,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-#hobies{
-    display: flex;
-    overflow: scroll;
-}
-#hobies img{
-    display: table;
-    text-align: center;
-    margin-left: 70px;
-    transition: 0.7s ease;
-    width: auto;
-    height: 200px;
-}
-
-#hobies img:hover{
-    transform: scale(1.1);
-}
 
 footer a img{
     padding: 20px;
@@ -169,21 +153,23 @@ nav a img{
     height: 30px;
     width: auto;
 }
-
-#servicies {
-    display: flex;
-    overflow: scroll;
-}
 #servicies h2{
     display: block;
     text-align: center;
+    justify-content: space-around;
+    align-items: center;
 }   
+
+#table {
+    display: flex;
+    justify-content: space-around; 
+    padding: 0px;
+}
+
 #servicies figure{
-    display: table;
     text-align: center;
     transition: 0.7s ease;
-    margin: 35px;
-    margin-top: 100px;
+    margin: 15px;
 }
 #servicies figure:hover{
     transform: scale(1.1);
@@ -196,6 +182,25 @@ nav a img{
     color: white;
     font-size: 1.7em;
     font-weight: 600;
-    display: table-caption;
     caption-side: bottom;
+}
+#hobies figure{
+    text-align: center;
+    transition: 0.7s ease;
+    margin: 15px;
+}
+#hobies figure:hover{
+    transform: scale(1.1);
+}
+#hobies figure img{
+    width: auto;
+    height: 320px;
+}
+#hobies figure figcaption{
+    color: white;
+    font-size: 1.7em;
+    font-weight: 600;
+    caption-side: bottom;
+    text-align: center;
+    margin-top: 30px;
 }
