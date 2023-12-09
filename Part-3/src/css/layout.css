@@ -7,21 +7,17 @@ html *{
     scroll-behavior: smooth;
 }
 body{
-    font: 14px Arial, Helvetica, sans-serif;
-    background-color: gainsboro;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header{
     background-color:black;
     width: 100%;
-    height: 12%;
+    height: 10%;
     position: fixed;
-    z-index: 999;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 250px;
-    margin: auto;
 }
 /**This is the id for my navigation bar as i have two navigation bars
 One for the website Student trainging, 
@@ -33,14 +29,14 @@ the other was demanded for the main and assignments**/
 #web a, #web a:visited{
     color: white;
     text-decoration: none;
-    padding: 27px 25px;
+    padding: 25px;
     font-size: 1.1em;
     font-weight: 750;
 }
 #web a:hover{
     color:  white;
     background-color: blueviolet;
-    text-decoration: none;
+    border: black 7px solid;
 }
 #assignment{
     display: inline-flex;
@@ -51,28 +47,26 @@ the other was demanded for the main and assignments**/
 #assignment a, #assignment a:visited{
     text-decoration: none;
     color: black;
-    padding: 27px 25px;
-    width: 30%;
-    height: 110%;
-    font-size: 1em;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    font-size: 0.9em;
     font-weight: 700;
-    transition: 0.5s ease;
     background-color: gainsboro;
     text-align: center;
+    border: black 7px solid;
 }
 
 #assignment a:hover{
     color:  white;
     background-color: blueviolet;
-    transform: scale(1);
 }
 main{
-    padding: 25px 0px;
+    /* padding: 25px 0px; */
     color: white;
 }
 section{
-    padding: 150px 200px;
-    margin-bottom: 50px;
+    padding: 150px;
 }
 aside{
     width: 30%;
@@ -95,5 +89,5 @@ footer{
 }
 
 section{
-    margin: 3.5em;
+    border: black 20px solid;
 }
