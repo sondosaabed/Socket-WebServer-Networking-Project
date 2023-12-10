@@ -1,0 +1,94 @@
+p.error-message {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 700; 
+}
+
+#name{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+#welcome span{
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+#welcome h3{
+    font-size: 2em;
+    letter-spacing:  1px;
+}
+#welcome a{
+    text-decoration: none;
+    padding: 25px;
+    font-size: 1.3em;
+    font-weight: 750;
+}
+#welcome button{
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+#about p{
+    font-size: 1.2em;
+    padding-left: 50px;
+    text-align: justify;
+}
+#about span{
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+#hobies figure, #servicies figure{
+    text-align: center;
+}
+
+#hobies figure figcaption, #servicies figure figcaption{
+    font-size: 1.7em;
+    font-weight: 600;
+    caption-side: bottom;
+    text-align: center;
+}
+
+
+aside{
+    font-weight: 550;
+    font-style: italic;
+}
+
+section h2{
+    font-size: 2.2em;
+    font-weight: 800;
+}
+
+footer, #servicies h2{
+    text-align: center;
+}
+
+#assignment, a{
+    text-decoration: none;
+}
+
+#assignment a, #assignment a:visited{
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 700;
+    text-align: center;
+}
+
+#web a, #web a:visited{
+    font-size: 1.1em;
+    font-weight: 750;
+    text-decoration: none;
+}

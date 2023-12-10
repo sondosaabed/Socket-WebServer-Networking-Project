@@ -1,17 +1,17 @@
 /* this CSS rules gives the page layout its look */ 
 
+/**This is the id for my navigation bar as i have two navigation bars
+One for the website Student trainging, 
+the other was demanded for the main and assignments**/
+
 html *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-body{
-    font-family: 'Montserrat', sans-serif;
-}
 
 header{
-    background-color:black;
     width: 100%;
     height: 10%;
     position: fixed;
@@ -19,75 +19,113 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-/**This is the id for my navigation bar as i have two navigation bars
-One for the website Student trainging, 
-the other was demanded for the main and assignments**/
-#web{
-    display: inline-flex;
-    justify-content: space-between;
-}
-#web a, #web a:visited{
-    color: white;
-    text-decoration: none;
-    padding: 25px;
-    font-size: 1.1em;
-    font-weight: 750;
-}
-#web a:hover{
-    color:  white;
-    background-color: blueviolet;
-    border: black 7px solid;
-}
-#assignment{
-    display: inline-flex;
-    justify-content: space-between;
-    text-decoration: none;
-}
 
-#assignment a, #assignment a:visited{
-    text-decoration: none;
-    color: black;
-    padding: 20px;
-    width: 100%;
-    height: 100%;
-    font-size: 0.9em;
-    font-weight: 700;
-    background-color: gainsboro;
-    text-align: center;
-    border: black 7px solid;
-}
-
-#assignment a:hover{
-    color:  white;
-    background-color: blueviolet;
-}
-main{
-    /* padding: 25px 0px; */
-    color: white;
-}
 section{
     padding: 150px;
 }
+
+section h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
 aside{
     width: 30%;
     padding: 25px;
     float: right;
-    background-color: blueviolet;
-    color: white;
-    font-weight: 550;
-    font-style: italic;
-}
-footer{
-    width: 100%;
-    height: 10%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    padding: 10px 200px;
-    color: white;
 }
 
-section{
-    border: black 20px solid;
+footer{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 150px;
+    align-items: center;
+}
+
+#web{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#web a, #web a:visited{
+    padding: 25px;
+}
+
+#assignment{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#assignment a, #assignment a:visited{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+#welcome span{
+    display: inline-block;
+}
+
+#welcome h3{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#welcome a{
+    padding: 25px;
+}
+
+a:hover {
+    text-decoration: underline;
+} 
+
+#welcome a:hover{
+    color:  blueviolet;
+}
+
+#name{
+    margin: 0 0 0 20px;
+}
+
+#about span{
+    display: inline-block;
+}
+
+#servicies h2{
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+}  
+
+#table {
+    display: flex;
+    justify-content: space-around; 
+    padding:  50px 0 30px 0;
+}
+
+#hobies figure, #servicies figure{
+    transition: 0.7s ease;
+    margin: 15px 15px;
+}
+#hobies figure:hover, #servicies figure:hover{
+    transform: scale(1.1);
+}
+
+#profile:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+
+#welcome button{
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    margin-bottom: 14px;
+    transition: 0.7s ease;
+}
+
+#welcome button:hover{
+    transform: scale(1.1);
 }

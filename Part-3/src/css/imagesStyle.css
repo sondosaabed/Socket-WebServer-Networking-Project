@@ -1,0 +1,45 @@
+#welcome img{
+    max-width: 100%;
+    position: relative;
+    bottom: 60px;
+    float: right;
+    margin-left: 20px;
+    margin-top: 60px;
+    height: 15em;
+    width: 15em;
+    order: 2;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+footer a img{
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+}
+
+nav a img{
+    height: 20px;
+    width: 20px;
+}
+
+#hobies figure img{
+    width: auto;
+    height: 320px;
+}
+
+#s404 img{
+    height: 40%;
+    width: 40%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+#servicies figure img{
+    width: 150px;
+    height: 150px;
+    border: #007BFF 5px solid;
+    background-color: white;
+    padding: 25px;
+}

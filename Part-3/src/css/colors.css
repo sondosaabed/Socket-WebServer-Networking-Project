@@ -1,0 +1,76 @@
+p.error-message {
+    color: #ff0000;
+}
+
+#welcome h2{
+    color: gainsboro;
+}
+
+section h2, #about span{
+    color: blueviolet;
+}
+
+#web a, #web a:visited, #welcome a, #name, #servicies figure figcaption{
+    color: white;
+}
+
+#about p, #voluntary h2, #projects h2, #courses h2, #contact h2, #courses h2, #about h2,
+ #point0 h1, #point0 h2, #point0 p, #hobies figure figcaption{
+    color: black;
+}
+
+#about p span, #point0 span, a, #welcome span{
+    color: #007BFF;
+}
+
+#voluntary,  #courses, #contact, #point0, #about, #hobies, #hobies #table,
+#assignment a:hover, aside, #web a:hover, #welcome button{
+    background-color: white;
+}
+
+header, footer, #servicies #table, #competitions, #servicies, #welcome, #education{
+    background-color: black;
+    color: white;
+}
+
+#projects, #assignment a:hover, aside, #web a:hover, #welcome button{
+    background-color: blueviolet;
+}
+
+#assignment a, #assignment a:visited{
+    background-color: gainsboro;
+}
+
+section{
+    border: black 20px solid;
+}
+#welcome, #servicies, #competitions{
+    border: white 100px solid;
+}
+#about{
+    border: blueviolet 20px solid;
+}
+#hobies, #education, #projects{
+    border: #007BFF 50px solid;
+}
+
+#hobies #table{
+    border: 7px solid black;
+    border-left: none;
+    border-right: none;
+}
+
+#servicies #table{
+    border: 7px solid white;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: gainsboro;
+}
+
+#assignment a:hover, aside, #web a:hover, #welcome button{
+    border-radius: 13px;
+}
+
+#assignment a, #assignment a:visited, #assignment a:hover, aside, #web a:hover, #welcome button{
+    border: black 7px solid;
+}
