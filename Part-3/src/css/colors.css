@@ -100,3 +100,15 @@ section{
     background-color: gainsboro;
     border-radius: 8px;
 }
+
+#education h3 {
+    color: white;
+}
+
+#education span {
+    color: #3498db;
+}
+
+#education p {
+    color: white;
+}

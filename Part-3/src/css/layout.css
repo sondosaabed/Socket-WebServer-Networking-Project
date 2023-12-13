@@ -162,3 +162,29 @@ a:hover {
 #items a:hover {
     text-decoration: underline;
 }
+
+#education span {
+    margin-top: 50px;
+    margin-right: 50px; 
+}
+
+#imgid {
+    display: flex;
+}
+
+#education ul ul{
+    margin-left: 8em;
+}
+
+#education ul li {
+    padding: 5px;
+    transition: transform 0.3s;
+}
+
+#education ul ul li {
+    padding: 5px;
+}
+
+#education li:hover {
+    transform: scale(1.05);
+}

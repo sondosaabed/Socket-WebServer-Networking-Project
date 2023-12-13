@@ -106,3 +106,16 @@ footer, #servicies h2{
     text-decoration: none;
     font-weight: bold;
 }
+
+#education p {
+    white-space: nowrap;
+}
+
+#education ul {
+    list-style-type: none;
+}
+
+#education ul ul{
+    text-align: right;
+    list-style-type: none;
+}
