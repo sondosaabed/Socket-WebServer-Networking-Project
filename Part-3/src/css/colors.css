@@ -74,3 +74,29 @@ section{
 #assignment a, #assignment a:visited, #assignment a:hover, aside, #web a:hover, #welcome button{
     border: black 7px solid;
 }
+
+#items a {
+    color: #3498db;
+}
+
+#courses span, #projects span{
+    color: blueviolet;
+}
+
+#projects .project-item {
+    border: 6px black solid;
+}
+
+#projects h3{
+    color: white;
+}
+#projects p{
+ color: black;
+}
+
+.project-item {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: gainsboro;
+    border-radius: 8px;
+}

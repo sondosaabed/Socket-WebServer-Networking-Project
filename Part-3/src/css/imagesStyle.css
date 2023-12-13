@@ -42,3 +42,12 @@ nav a img{
     background-color: white;
     padding: 25px;
 }
+
+.project-item img {
+    max-width: 100%;
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: black solid 1px;
+}

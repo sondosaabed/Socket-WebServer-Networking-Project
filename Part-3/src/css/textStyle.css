@@ -92,3 +92,17 @@ footer, #servicies h2{
     font-weight: 750;
     text-decoration: none;
 }
+
+#courses p, #projects p{
+    font-weight: bolder;
+}
+
+#projects h3{
+    text-align: center;
+}
+
+#items a {   
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
