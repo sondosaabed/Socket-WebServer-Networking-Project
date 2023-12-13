@@ -58,3 +58,11 @@ nav a img{
     margin-right: 15px;
     border-radius: 5px;
 }
+
+#competitions img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}

@@ -188,3 +188,12 @@ a:hover {
 #education li:hover {
     transform: scale(1.05);
 }
+
+#competitions .competition-container {
+    display: flex;
+    justify-content: center;
+}
+
+#competitions img:hover {
+    transform: scale(1.1);
+}

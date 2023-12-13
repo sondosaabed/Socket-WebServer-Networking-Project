@@ -119,3 +119,7 @@ footer, #servicies h2{
     text-align: right;
     list-style-type: none;
 }
+
+#competitions h2 {
+    color: #3498db;
+}
