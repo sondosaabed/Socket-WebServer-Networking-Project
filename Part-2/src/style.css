@@ -1,38 +1,91 @@
-*{
-    padding: 20px;
+* {
     text-align: center;
     color: #36344E;
+    box-sizing: border-box;
 }
 
-body{
+body {
     background-color: white;
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 
-label{
-    padding: 2em;
-    font-size: 1.5em;
+label {
+    font-size: 1.3em;
 }
 
-input {
+#chkBtn {
     background-color: #6C63FF;
     padding: 0.5em;
     font-size: 1.2em;
     color: white;
-    position: block;
-
-    margin: 0.8em;    
+    display: block;
+    margin: 0.8em auto;    
     border-radius: 30px;
-    border-color: transparent;
+    border: 1px solid transparent;
 }
 
-#studnet_id{
+#studnet_id {
     background-color: white;
+    padding: 0.5em;
     border-color: #36344E;
     color: #36344E;
+    margin: 0.8em;
+    padding: 0.5em;
+    font-size: 1.2em;
+    border-radius: 30px;
+    border: 1px solid #36344E;
+}
+nav{
+    background-color: #6C63FF;
+    width: 100%;
 }
 
 img {
     height: 30%;
     width: 30%;
+}
+
+section {
+    padding: 80px;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    position: relative; /* Changed from fixed to relative */
+    display: flex;
+    justify-content: center; /* Centered the content horizontally */
+    align-items: center;
+}
+
+#assignment, a {
+    text-decoration: none;
+}
+
+#assignment a, #assignment a:visited {
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 700;
+    text-align: center;
+}
+
+#assignment a, #assignment a:visited {
+    background-color: gainsboro;
+}
+
+#assignment a:hover {
+    background-color: #6C63FF;
+    color: white;
+}
+
+#assignment {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#assignment a, #assignment a:visited {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
 }
