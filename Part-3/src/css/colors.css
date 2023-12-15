@@ -114,3 +114,57 @@ section{
 #education p {
     color: white;
 }
+
+
+#contact .contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#contact .contact-item {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+
+#contact .contact-card {
+    border: 7px solid blueviolet;
+    border-radius: 8px;
+    padding: 50px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+#contact .contact-card:hover {
+    transform: scale(1.05);
+}
+
+#contact .icon {
+    font-size: 36px;
+}
+
+#contact h2 {
+    color: #333;
+}
+
+#contact h3 {
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+#contact address,
+#contact p,
+#contact a {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
