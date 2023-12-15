@@ -140,11 +140,11 @@ section{
 }
 
 #contact .icon {
-    font-size: 36px;
+    font-size: 5em;
 }
 
-#contact h2 {
-    color: #333;
+#voluntary h3{
+    color: blueviolet;
 }
 
 #contact h3 {

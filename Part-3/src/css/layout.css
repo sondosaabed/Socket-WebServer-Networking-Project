@@ -151,6 +151,17 @@ a:hover {
     justify-content: center;
     flex-wrap: wrap;
 }
+.items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#voluntary .project-item {
+    padding: 25px;
+    margin: 10px;
+    width: 30%;
+    background-color: white;
+}
 
 #projects h3{
     margin: 10px;
@@ -173,6 +184,23 @@ a:hover {
 
 .project-item:hover {
     transform: scale(1.05);
+}
+.project-item img{
+    transition: transform 0.3s;
+}
+.project-item img:hover{
+    transform: scale(1.05);
+}
+
+#voluntary .project-item{
+    transition: transform 0.3s;
+}
+#voluntary .project-item:hover{
+    background-color: #3498db;
+}
+.vol-title {
+    font-weight: bold;
+    margin-top: 5px;
 }
 
 #items a {
