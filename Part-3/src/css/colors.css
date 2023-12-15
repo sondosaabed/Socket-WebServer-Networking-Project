@@ -33,12 +33,13 @@ header, footer, #servicies #table, #competitions, #servicies, #welcome, #educati
     color: white;
 }
 
-#projects, #assignment a:hover, aside, #web a:hover, #welcome button{
+#projects,  aside, #welcome button{
     background-color: blueviolet;
 }
 
+#assignment a:hover, #web a:hover,
 #assignment a, #assignment a:visited{
-    background-color: gainsboro;
+    color:blueviolet;
 }
 
 section{

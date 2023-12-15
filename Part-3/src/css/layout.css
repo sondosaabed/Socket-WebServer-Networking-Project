@@ -13,11 +13,47 @@ html *{
 
 header{
     width: 100%;
-    height: 10%;
-    position: fixed;
+    height: 15%;
+    display: flex;
+    position: sticky;
+    position: -webkit-sticky;
+    align-items: center;
+    top: 0;
+}
+
+
+.navbar {
+    background-color: black;
+    padding: 20px 20px 20px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#name {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#web {
+    gap: 20px;
+}
+
+#assignment a,
+#web a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+    padding: 5px;
+    border-radius: 13px;
+}
+
+#assignment{
+    margin-left: 5px;
+    padding: 3PX;
 }
 
 section{
@@ -40,29 +76,9 @@ footer{
     width: 100%;
     height: 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px 150px;
     align-items: center;
-}
-
-#web{
-    display: inline-flex;
-    justify-content: space-between;
-}
-
-#web a, #web a:visited{
-    padding: 25px;
-}
-
-#assignment{
-    display: inline-flex;
-    justify-content: space-between;
-}
-
-#assignment a, #assignment a:visited{
-    padding: 20px;
-    width: 100%;
-    height: 100%;
 }
 
 #welcome span{
@@ -140,10 +156,15 @@ a:hover {
     margin: 10px;
 }
 
-.project-item {
-    width: 350px;
+#projects .project-item {
+    padding: 25px;
     margin: 10px;
+    width: 30%;
+}
+
+.project-item {
     padding: 20px;
+    margin: 3px;
     transition: transform 0.3s;
     display: flex;
     flex-direction: column; 

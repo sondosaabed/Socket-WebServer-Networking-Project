@@ -19,7 +19,7 @@ footer a img{
 }
 
 nav a img{
-    height: 30px;
+    height: 20px;
 }
 
 #hobies figure img{
@@ -44,7 +44,7 @@ nav a img{
 }
 
 .project-item img {
-    max-width: 100%;
+    width: auto;
     height: 200px; 
     object-fit: cover;
     border-radius: 5px;
