@@ -23,8 +23,7 @@ section h2, #about span{
     color: #007BFF;
 }
 
-#voluntary,  #courses, #contact, #point0, #about, #hobies, #hobies #table,
-#assignment a:hover, aside, #web a:hover, #welcome button{
+#voluntary,  #courses, #contact, #point0, #about, #hobies, #hobies #table, #welcome button,aside{
     background-color: white;
 }
 
@@ -37,9 +36,11 @@ header, footer, #servicies #table, #competitions, #servicies, #welcome, #educati
     background-color: blueviolet;
 }
 
-#assignment a:hover, #web a:hover,
-#assignment a, #assignment a:visited{
+#assignment a:visited,#assignment a,#web a:hover{
     color:blueviolet;
+ }
+#assignment a:hover{
+    color:white;
 }
 
 section{
