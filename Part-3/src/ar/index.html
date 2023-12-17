@@ -1,30 +1,39 @@
 <!DOCTYPE html>
-<html lang=" ar" >
-    <head>
-         <!-- c. & e (CSS in seprate file)-->
-        <link rel="stylesheet" href="../css/colors.css">
-        <link rel="stylesheet" href="../css/layout.css">
-        <link rel="stylesheet" href="../css/textStyle.css">
-        <link rel="stylesheet" href="../css/imagesStyle.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Mirza:wght@400;700&display=swap" rel="stylesheet">
-        <title>ENCS3320-السيرفر الخاص بي المصغّر 23/24</title> <!-- a. -->
-        <style>
-            *{
-                text-align: right;
-                font-family: 'Mirza', serif;
-            }
-            #welcome img{
-                float: left;
-            }
-        </style>
-    </head>
+<html lang=" ar" dir='rtl'>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <!-- c. & e (CSS in seprate file)-->
+    <link rel="stylesheet" href="../css/colors.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/textStyle.css">
+    <link rel="stylesheet" href="../css/imagesStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mirza:wght@400;700&display=swap" rel="stylesheet">
+    <title>ENCS3320-السيرفر الخاص بي المصغّر 23/24</title> <!-- a. -->
+    <style>
+        * {
+            text-align: right;
+            font-family: 'Mirza', serif;
+        }
+
+        #welcome img {
+            float: left;
+        }
+    </style>
+</head>
+
 <body>
-	<header>
+    <header style="align-items: center;display: inline; font-size: large;">
         <div class="navbar">
+            <a href="index.html" id="name">سندس عابد</a>
+            <nav id="assignment">
+                <a href="../../../Part-1/part1.html">جزء-1</a>
+                <a href="../../../Part-2/src/index.html"> التحقق من الرقم الجامعي جزء-2</a>
+                <a href="../ar/index.html">جزء-3</a>
+            </nav>
             <nav id="web">
-                <a href="../en/index.html">English<img alt="ar" src="../images/lang.png"/></a> <!-- j. a link to local html file -->
                 <a href="#about">عن سندس</a>
                 <a href="#education">التعليم</a>
                 <a href="#courses">مساقات</a>
@@ -34,17 +43,13 @@
                 <a href="#voluntary">التطوّع</a>
                 <a href="#hobies">الهوايات</a>
                 <a href="#contact">للتواصل</a>
-            </nav> 
-            <nav id="assignment">
-                <a href="../../../Part-1/part1.ipynb">جزء-1</a>
-                <a href="../../../Part-2/src/index.html"> التحقق من الرقم الجامعي جزء-2</a>
-                <a href="../en/index.html">جزء-3</a>
+                <a href="../en/index.html">English<img alt="ar" src="../images/lang.png" /></a>
+                <!-- j. a link to local html file -->
             </nav>
-            <a href="index.html" id="name">سندس عابد</a>
         </div>
-	</header>
-	<main>
-    <!-- d. diffrent sections -->
+    </header>
+    <main>
+        <!-- d. diffrent sections -->
         <!-- f. -->
         <section id="point0">
             <h1>مرحباً بكم في مساقنا <span>شبكات الحاسوب، هذا سيرفر مصغّر</span></h1> <!-- b. -->
@@ -56,19 +61,21 @@
         </section>
 
         <section id="welcome">
-            <h2 id="title">مرحبا، أنا سندس عابد 1190652<br/></h2> <!-- g. name & ID -->
-            <img id="profile" src="../images/profile.png" alt="profile photot"/><br> <!-- i. png image -->
+            <h2 id="title">مرحبا، أنا سندس عابد 1190652<br /></h2> <!-- g. name & ID -->
+            <img id="profile" src="../images/profile.png" alt="profile photot" /><br> <!-- i. png image -->
             <span>مبرمجة</span>
             <h3>أنا أدرس علم الحاسوب!</h3>
             <button>أعمالي</button><br>
             <a href="https://github.com/sondosaabed" target="_blank">Github</a>
             <a href="https://www.linkedin.com/in/sondosaabed/" target="_blank">LinkedIn</a>
         </section>
-                <!-- h. information about me -->
+        <!-- h. information about me -->
         <section id="about">
             <h2>عنّي</h2>
-            <p style="text-align:right;"><span>سندس عابد</span><br/>   
-                أنا طالبة معرفة، أحب التقنيات، الفن، والفلسفة. آخر التطبيقات التي عملت عليها يقوم بربط الاقارب مع أحباءهم المفقودين من خلال الشيفرة الوراثية للتخفيف من آلامهم. حالياً أعمل على بناء قاعدة المعرفة، وعلى مشروعي التخرّج (خطّك). بامكانكم متابعتي على Github. 
+            <p style="text-align:right;"><span>سندس عابد</span><br />
+                أنا طالبة معرفة، أحب التقنيات، الفن، والفلسفة. آخر التطبيقات التي عملت عليها يقوم بربط الاقارب مع
+                أحباءهم المفقودين من خلال الشيفرة الوراثية للتخفيف من آلامهم. حالياً أعمل على بناء قاعدة المعرفة، وعلى
+                مشروعي التخرّج (خطّك). بامكانكم متابعتي على Github.
             </p>
         </section>
         <section id="education">
@@ -77,32 +84,32 @@
                 <li>
                     <div id="imgid">
                         <a href="https://www.birzeit.edu/en/" target="_blank">
-                        <img src="../images/education/bzu.png" alt="Birzeit University Logo"></a>
-                        <div>    
+                            <img src="../images/education/bzu.png" alt="Birzeit University Logo"></a>
+                        <div>
                             <h3>جامعة بيرزيت</h3>
                             <span>Sep 2019 - Jul 2024</span>
                             <p>درجة بكلوريوس، علم حاسوب</p>
                         </div>
                         <ul>
-                                <li>
-                                    تعلّم الآلة، الذكاء الاصطناعي، قواعد البيانات، التحقيق الجنائي الرقمي
-                                </li>
-                                <li>
-                                    اختبار البرمجيات، هندسة البرمجيات، تطوير الويبسايت، بنية المعلومات
-                                </li>
-                            </ul>
+                            <li>
+                                تعلّم الآلة، الذكاء الاصطناعي، قواعد البيانات، التحقيق الجنائي الرقمي
+                            </li>
+                            <li>
+                                اختبار البرمجيات، هندسة البرمجيات، تطوير الويبسايت، بنية المعلومات
+                            </li>
+                        </ul>
                     </div>
                 </li>
                 <li>
                     <div id="imgid">
                         <a href="https://www.udacity.com/" target="_blank">
-                        <img src="../images/education/udacity.png" alt="Udacity Logo"></a>
+                            <img src="../images/education/udacity.png" alt="Udacity Logo"></a>
                         <div>
                             <h3>يوداسيتي - برمجة الذكاء الاصطناعي،</h3>
                             <span>Dec 2023 - Feb 2024</span>
                             <p>منحة نانوديجري مع بيرتسلمان</p>
                         </div>
-                        <ul> 
+                        <ul>
                             <li>تم قبولي في هذه المنحة الدراسة كواحدة من 50 ألف/li>
                             <li>تعلم تقنيات الذكاء الاصطناعي مع بايثون</li>
                         </ul>
@@ -111,7 +118,7 @@
                 <li>
                     <div id="imgid">
                         <a href="https://www.datacamp.com/" target="_blank">
-                        <img src="../images/education/datacamp.png" alt="DataCamp Logo" ></a>
+                            <img src="../images/education/datacamp.png" alt="DataCamp Logo"></a>
                         <div>
                             <h3>داتاكامب</h3>
                             <span>Nov 2023 - Nov 2023</span>
@@ -120,21 +127,23 @@
                         <ul>
                             <li>34 ساعة تعليم، 14 مساق، 3 مسارات مهنية</li>
                             <li>استخدام منصة داتاكامب لتحسين خبرتي في مختلف المسارا المهنية وتطوير مهارات مهمة</li>
-                            <li>تحصيل معرفة وخبرة عملية في مجالات الذكاء الاصطناعي ومعالجة الصور وتعلّم الآلة المعمق.</li>
+                            <li>تحصيل معرفة وخبرة عملية في مجالات الذكاء الاصطناعي ومعالجة الصور وتعلّم الآلة المعمق.
+                            </li>
                         </ul>
                     </div>
                 </li>
                 <li>
                     <div id="imgid">
                         <a href="https://www.udacity.com/" target="_blank">
-                        <img src="../images/education/udacity.png" alt="Udacity Logo"></a>
+                            <img src="../images/education/udacity.png" alt="Udacity Logo"></a>
                         <div>
                             <h3>يوداسيتي - علم البيانات</h3>
                             <span>May 2023 - Sep 2023</span>
                             <p>منحة نانوديجري مع جوجل/p>
                         </div>
-                        <ul> 
-                            <li>المشاركة في هاكثون للذكاء الاصطناعي مع مشروع بالتقدير. تحرّي قاعدة بايانات علائقية باستخدام SQL.</li>
+                        <ul>
+                            <li>المشاركة في هاكثون للذكاء الاصطناعي مع مشروع بالتقدير. تحرّي قاعدة بايانات علائقية
+                                باستخدام SQL.</li>
                             <li>استكشاف قواعد بيانات مع بايثون واستخدام ضبط النسخ</li>
                         </ul>
                     </div>
@@ -142,7 +151,7 @@
                 <li>
                     <div id="imgid">
                         <a href="https://www.amideast.org/" target="_blank">
-                        <img src="../images/education/amid.png" alt="Amideast Logo"></a>
+                            <img src="../images/education/amid.png" alt="Amideast Logo"></a>
                         <div>
                             <h3>أمديست</h3>
                             <span>2015 - 2018</span>
@@ -161,52 +170,40 @@
                 <div class="project-item">
                     <p>مسار مهني</p>
                     <span>مسار التعلّم العميق مع داتاكامب</span>
-                    <a href="https://github.com/sondosaabed/DataCamp-Deep-Learning-Track" target="_blank">المزيد من التفاصيل</a>
-                    <img src="../images/courses/deepLearning.png" alt="DataCamp Deep Learning Track"/>
+                    <a href="https://github.com/sondosaabed/DataCamp-Deep-Learning-Track" target="_blank">المزيد من
+                        التفاصيل</a>
+                    <img src="../images/courses/deepLearning.png" alt="DataCamp Deep Learning Track" />
                 </div>
                 <div class="project-item">
                     <p>مسار مهني</p>
                     <span>مسار معالجة الصور مع داتاكامب</span>
-                    <a href="https://github.com/sondosaabed/DataCamp-Image-Processing-Track" target="_blank">المزيد من التفاصيل</a>
-                    <img src="../images/courses/imageProcessing.png" alt="DataCamp Image Processing Track"/>
+                    <a href="https://github.com/sondosaabed/DataCamp-Image-Processing-Track" target="_blank">المزيد من
+                        التفاصيل</a>
+                    <img src="../images/courses/imageProcessing.png" alt="DataCamp Image Processing Track" />
                 </div>
                 <div class="project-item">
                     <p>نانوديجري</p>
                     <span>برمجة علم البيانات مع بايثون</span>
-                    <a href="https://github.com/sondosaabed/Nanodegree-Programming-for-Data-Science-with-Python" target="_blank">المزيد من التفاصيل</a>
-                    <img src="../images/courses/nanodegree.png" alt="Data Science with Python Nanoderee"/>
+                    <a href="https://github.com/sondosaabed/Nanodegree-Programming-for-Data-Science-with-Python"
+                        target="_blank">المزيد من التفاصيل</a>
+                    <img src="../images/courses/nanodegree.png" alt="Data Science with Python Nanoderee" />
                 </div>
             </div>
-            </section>
+        </section>
         </section>
         <section id="servicies">
-            <h2>لغات البرمجة</h2>
+            <h2>الأدوات ولغات البرمجة</h2>
             <section id="table">
-            <figure>
                 <img src="../images/programming_languages/git.png" alt="Git">
-                <figcaption>Git - Extensive knowledge</figcaption>
-            </figure>
-            <figure>
+                <img src="../images/programming_languages/github.png" alt="Github">
+                <img src="../images/programming_languages/vs.png" alt="vs">
+                <img src="../images/programming_languages/slack.png" alt="Slack">
                 <img src="../images/programming_languages/java.png" alt="Java">
-                <figcaption>Java - Extensive knowledge</figcaption>
-            </figure>
-            <figure>
                 <img src="../images/programming_languages/python.png" alt="python">
-                <figcaption>Python - Extensive knowledge</figcaption>
-            </figure>
-            <figure>
                 <img src="../images/programming_languages/mysql.png" alt="MySQL">
-                <figcaption>MySQL - Extensive knowledge</figcaption>
-            </figure>
-            <figure>
                 <img src="../images/programming_languages/html5.png" alt="html5">
-                <figcaption>HTML5 - Extensive knowledge</figcaption>
-            </figure>
-            <figure>
                 <img src="../images/programming_languages/css3.png" alt="CSS3">
-                <figcaption>CSS3 - Extensive knowledge</figcaption>
-            </figure>
-        </section>
+            </section>
         </section>
         <section id="projects">
             <h2>المشاريع</h2>
@@ -216,19 +213,19 @@
                     <p>مشروع التخرّج</p>
                     <span>خطّك</span>
                     <a href="https://github.com/KhattTech" target="_blank">المزيد من التفاصيل</a>
-                    <img src="../images/projects/khatt.png" alt="KhattTech Mobile App"/>
+                    <img src="../images/projects/khatt.png" alt="KhattTech Mobile App" />
                 </div>
                 <div class="project-item">
                     <p>خريطة وجراف</p>
                     <span>خريطة فلسطين</span>
                     <a href="https://github.com/sondosaabed/Palestine-Cities-Map" target="_blank">المزيد من التفاصيل</a>
-                    <img src="../images/projects/map.png" alt="Palestine map project"/>
+                    <img src="../images/projects/map.png" alt="Palestine map project" />
                 </div>
                 <div class="project-item">
                     <p>تطبيق موبايل لادارة المهام</p>
                     <span>تاسكاتي</span>
                     <a href="https://github.com/sondosaabed/Taskaty" target="_blank">المزيد من التفاصيل</a>
-                    <img src="../images/projects/taskaty.png" alt="Taskaty project"/>
+                    <img src="../images/projects/taskaty.png" alt="Taskaty project" />
                 </div>
             </div>
             <h3>بيانات وذكاء اصطناعي</h3>
@@ -236,20 +233,23 @@
                 <div class="project-item">
                     <p>تحليل البيانات وتمثيلها</p>
                     <span>تحليل بيانات طقسية</span>
-                    <a href="https://github.com/sondosaabed/Weather-Dataset-Analysis" target="_blank">المزيد من التفاصيل</a>
-                    <img src="../images/projects/weather.png" alt="Weather Dataset Analysis"/>
+                    <a href="https://github.com/sondosaabed/Weather-Dataset-Analysis" target="_blank">المزيد من
+                        التفاصيل</a>
+                    <img src="../images/projects/weather.png" alt="Weather Dataset Analysis" />
                 </div>
                 <div class="project-item">
                     <p>تنبؤ بالذكاء الاصطناعي</p>
                     <span>تنبؤ مرض السكري باستخدام شجرة القرارات</span>
-                    <a href="https://github.com/sondosaabed/Predicting-Diabetes-with-Decision-Trees" target="_blank">المزيد من التفاصيل</a>
-                    <img src="../images/projects/diab.png" alt="diabetes project"/>
+                    <a href="https://github.com/sondosaabed/Predicting-Diabetes-with-Decision-Trees"
+                        target="_blank">المزيد من التفاصيل</a>
+                    <img src="../images/projects/diab.png" alt="diabetes project" />
                 </div>
                 <div class="project-item">
                     <p>تحليل البيانات وتمثيلها</p>
                     <span>تحليل بيانات الزبائن المحتمل انفصالهم</span>
-                    <a href="https://github.com/sondosaabed/Customer-Churn-Dataset-Analysis" target="_blank">المزيد من التفاصيل</a>
-                    <img src="../images/projects/churn.png" alt="Customer Churn Dataset Analysis"/>
+                    <a href="https://github.com/sondosaabed/Customer-Churn-Dataset-Analysis" target="_blank">المزيد من
+                        التفاصيل</a>
+                    <img src="../images/projects/churn.png" alt="Customer Churn Dataset Analysis" />
                 </div>
             </div>
         </section>
@@ -257,56 +257,59 @@
             <h2>المسابقات</h2>
             <div>
                 <a href="https://github.com/ROMP-Recovery-Of-Missing-People/ROMP" target="_blank">
-                <img alt="AI competition" src="../images/competitions/2.png"> <!-- i. jpg image --></a>
+                    <img alt="AI competition" src="../images/competitions/2.png"> <!-- i. jpg image --></a>
             </div>
             <div>
                 <a href="https://github.com/orgs/PalTaqdeer/repositories" target="_blank">
-                <img alt="Hackathon competition" src="../images/competitions/4.png"></a>
+                    <img alt="Hackathon competition" src="../images/competitions/4.png"></a>
             </div>
         </section>
         <section id="voluntary">
             <h2>العمل التطوّعي</h2>
             <div class="items">
                 <div class="project-item">
-                    <h3>جمعية أبناء البيرة</h3> 
-                    <span>2019</span>
-                    <p class="vol-title">متطوّعة</p>
-                    <p>المساهمة في تنظيم والترفيه عن مرضى متلاومة داروين في معرض فلسطين للكتاب الدوّلي، للمحافظة على صحتهم وسعادتهم.</p>
-                    <img src="../images/voluntary/3.jpg"/>
+                    <h3>منتدى شارك الشبابي</h3>
+                    <span>2021</span>
+                    <p class="vol-title">قائدة مبادرة</p>
+                    <p>قيادة حملة توعية انتخابية تستهدف الفئات الشابة، مع التركيز على تشجيعهم على المشاركة السياسية،
+                        خصوصاً الفتيات وذوي الاعاقة مع مختلف الاجسام الامنتخبة في مدينة البيرة</p>
+                    <img src="../images/voluntary/1.jpg" />
                 </div>
                 <div class="project-item">
-                    <h3>نادي ثقافي البيرة</h3> 
+                    <h3>نادي ثقافي البيرة</h3>
                     <span>2020</span>
                     <p class="vol-title">مخططة</p>
                     <p>المساهمة في التخطيط لمبادرة توعية حل عمالة الأطفال ما بعد جائحة كورونا في رام الله.
                         حيث هدف المشروع للتوعية حول قضايا عمالة الأطفال في فلسطين، بالتحديد أحوال أطفال مدينة البيرة.
                     </p>
-                    <img src="../images/voluntary/2.jpg"/>
+                    <img src="../images/voluntary/2.jpg" />
                 </div>
                 <div class="project-item">
-                    <h3>منتدى شارك الشبابي</h3> 
-                    <span>2021</span>
-                    <p class="vol-title">قائدة مبادرة</p>
-                    <p>قيادة حملة توعية انتخابية تستهدف الفئات الشابة، مع التركيز على تشجيعهم على المشاركة السياسية، خصوصاً الفتيات وذوي الاعاقة مع مختلف الاجسام الامنتخبة في مدينة البيرة</p>
-                    <img src="../images/voluntary/1.jpg"/>
+                    <h3>جمعية أبناء البيرة</h3>
+                    <span>2019</span>
+                    <p class="vol-title">متطوّعة</p>
+                    <p>المساهمة في تنظيم والترفيه عن مرضى متلاومة داروين في معرض فلسطين للكتاب الدوّلي، للمحافظة على
+                        صحتهم وسعادتهم.</p>
+                    <img src="../images/voluntary/3.jpg" />
                 </div>
             </div>
             <div class="items">
                 <div class="project-item">
-                    <h3>حكواتي</h3> 
-                    <span>2015-2017</span>
-                    <p class="vol-title">متطوعة</p>
-                    <p> التطوّع فاعلياً والمساعدة في التخطيط لمختلف المناسبات المتعلّقة بمدينة البيرةو المساهمة في انجاح مبارات ثقافية ومجتمعية مختلفة.</p>
-                    <img src="../images/voluntary/6.jpg"/>
-                    <img src="../images/voluntary/7.jpg"/>
-                </div>
-                <div class="project-item">
-                    <h3>الحقل والبيدر</h3> 
+                    <h3>الحقل والبيدر</h3>
                     <span>2018</span>
                     <p class="vol-title">متطوعة</p>
                     <p>التطوّع في المخيم الصيفي الحقل والبيد، المشاركة بشكل فعّال ومنخرط مع الأطفال.</p>
-                    <img src="../images/voluntary/4.jpg"/>
-                    <img src="../images/voluntary/5.jpg"/>
+                    <img src="../images/voluntary/4.jpg" />
+                    <img src="../images/voluntary/5.jpg" />
+                </div>
+                <div class="project-item">
+                    <h3>حكواتي</h3>
+                    <span>2015-2017</span>
+                    <p class="vol-title">متطوعة</p>
+                    <p> التطوّع فاعلياً والمساعدة في التخطيط لمختلف المناسبات المتعلّقة بمدينة البيرةو المساهمة في انجاح
+                        مبارات ثقافية ومجتمعية مختلفة.</p>
+                    <img src="../images/voluntary/6.jpg" />
+                    <img src="../images/voluntary/7.jpg" />
                 </div>
             </div>
         </section>
@@ -314,19 +317,20 @@
             <h2>الهوايات</h2>
             <section id="table">
                 <figure>
-                    <img src="../images/hobies/code.png" alt="programming"/>
-                    <figcaption>البرمجة والذكاء الاصطناعي</figcaption>
-                </figure>
-                <figure>
-                    <a href="https://www.goodreads.com/user/show/54329221" target="_blank"><img src="../images/hobies/read.png" alt="reading"/></a>
-                    <figcaption>قراءة الكتب</figcaption>
-                </figure>
-
-                <figure>
-                    <a href="https://www.behance.net/sondosaabed" target="_blank"><img src="../images/hobies/journal.png" alt="drawing"/></a>
+                    <a href="https://www.behance.net/sondosaabed" target="_blank"><img
+                            src="../images/hobies/journal.png" alt="drawing" /></a>
                     <figcaption>الرسم والفنون</figcaption>
                 </figure>
-        </section>
+                <figure>
+                    <a href="https://www.goodreads.com/user/show/54329221" target="_blank"><img
+                            src="../images/hobies/read.png" alt="reading" /></a>
+                    <figcaption>قراءة الكتب</figcaption>
+                </figure>
+                <figure>
+                    <img src="../images/hobies/code.png" alt="programming" />
+                    <figcaption>البرمجة والذكاء الاصطناعي</figcaption>
+                </figure>
+            </section>
         </section>
         <aside>
             "الخيال أهم من المعرفة!"
@@ -339,8 +343,8 @@
                         <span class="icon">✉</span>
                         <h3>العنوان</h3>
                         <address>
-                           فلسطين،
-                           البيرة
+                            فلسطين،
+                            البيرة
                         </address>
                     </div>
                 </div>
@@ -360,11 +364,12 @@
                 </div>
             </div>
         </section>
-	</main>
-	<footer style="background-color: black;">
-		<p>@سندس عابد 1190652 2023</p>
-        <a href="mailto:sondos@duck.com" target="_blank"><img alt="gmail" src="../images/gmail.png"/></a>
+    </main>
+    <footer style="background-color: black;">
+        <p>@سندس عابد 1190652 2023</p>
+        <a href="mailto:sondos@duck.com" target="_blank"><img alt="gmail" src="../images/gmail.png" /></a>
         <a href="https://www.w3schools.com/python/python_strings.asp">جمل بايثون</a> <!-- k. a link to .....-->
     </footer>
 </body>
+
 </html>
