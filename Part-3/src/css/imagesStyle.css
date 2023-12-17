@@ -49,7 +49,7 @@ nav a img{
     object-fit: cover;
     border-radius: 5px;
     margin-top: 10px;
-    border: black solid 1px;
+    border: white solid 1px;
 }
 
 #education img {
@@ -65,4 +65,8 @@ nav a img{
     margin: 20px;
     border-radius: 8px;
     transition: transform 0.3s;
+}
+
+#voluntary img{
+    border-color: white;
 }
