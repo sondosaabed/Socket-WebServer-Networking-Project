@@ -35,14 +35,6 @@ nav a img{
     margin: 0 auto;
 }
 
-#servicies figure img{
-    width: 150px;
-    height: 150px;
-    border: #007BFF 5px solid;
-    background-color: white;
-    padding: 25px;
-}
-
 .project-item img {
     width: auto;
     height: 200px; 

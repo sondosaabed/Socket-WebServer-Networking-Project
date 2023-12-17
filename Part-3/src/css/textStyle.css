@@ -49,17 +49,16 @@ h1, h2, h3 {
     font-weight: 600;
 }
 
-#hobies figure, #servicies figure{
+#hobies figure{
     text-align: center;
 }
 
-#hobies figure figcaption, #servicies figure figcaption{
+#hobies figure figcaption{
     font-size: 1.7em;
     font-weight: 600;
     caption-side: bottom;
     text-align: center;
 }
-
 
 aside{
     font-weight: 550;
