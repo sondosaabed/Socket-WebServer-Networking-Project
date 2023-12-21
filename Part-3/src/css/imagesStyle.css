@@ -51,6 +51,17 @@ nav a img{
     border-radius: 5px;
 }
 
+#table img{
+    height: 85px;
+    width: 85px;
+    transition: 0.7s ease;
+    margin: 1em;
+}
+
+#servicies #table img:hover{
+    transform: scale(1.5);
+}
+
 #competitions img {
     max-width: 100%;
     height: auto;

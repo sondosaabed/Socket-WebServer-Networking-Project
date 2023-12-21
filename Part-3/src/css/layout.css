@@ -121,17 +121,6 @@ a:hover {
     justify-content: space-around; 
     padding:  30px 0 30px 0;
 }
-#table img{
-    height: 105px;
-    width: 105px;
-    transition: 0.7s ease;
-    margin: 1em;
-}
-
-#servicies #table img:hover{
-    transform: scale(1.5);
-}
-
 
 #hobies figure{
     transition: 0.7s ease;
