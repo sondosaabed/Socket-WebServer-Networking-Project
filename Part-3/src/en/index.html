@@ -40,10 +40,43 @@
         <!-- f. -->
         <section id="point0">
             <h1>Welcome to our course <span>Computer Networks, This is a tiny webserver</span></h1> <!-- b. -->
-
-            <h2>Ponit 0 Answer</h2>
+            <br/>
+            <h3>What is Content-Type in the HTTP request and why do we need it?</h3>
             <p>
-                Summarize point 0 above in a box
+                <br/><br/>
+                <em>3.7 <strong>Media Types</strong></em> 
+                <br/>
+                <br/>
+                    HTTP uses Internet Media Types [17] in the Content-Type (section
+                14.17) and Accept (section 14.1) header fields in order to provide
+                open and extensible data typing and type negotiation.
+                <br/>
+                <br/>
+                <ul>   
+                    <li>media-type     = type "/" subtype *( ";" parameter )</li>
+                    <li>type           = token</li>
+                    <li>subtype        = token</li>
+                </ul> 
+                <br/><br/>
+
+                    The type, subtype, and parameter attribute names are case-
+                insensitive. Parameter values might or might not be case-sensitive,
+                depending on the semantics of the parameter name. Linear white space
+                (LWS) MUST NOT be used between the type and subtype, nor between an
+                attribute and its value. The presence or absence of a parameter might
+                be significant to the processing of a media-type, depending on its
+                definition within the media type registry.
+                <br/><br/>
+                <em>14.17 <strong>Content-Type</strong></em>
+                <br/>
+                <br/>
+                    The Content-Type entity-header field indicates the media type of the
+                entity-body sent to the recipient or, in the case of the HEAD method,
+                the media type that would have been sent had the request been a GET.
+                <br/>
+                    Content-Type   = "Content-Type" ":" media-type
+                <br/>
+                Resource: <a href="https://datatracker.ietf.org/doc/html/rfc2616">RFC 2616 - Hypertext Transfer Protocol -- HTTP/1.1</a>
             </p>
         </section>
         <section id="welcome">
