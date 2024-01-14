@@ -27,11 +27,16 @@ def temp_redirection(request_path, client_socket):
     """
     redirect_to = {'/cr': 'http://cornell.edu', 
                     '/so': 'http://stackoverflow.com', 
-                    '/rt': 'http://ritaj'}
-    response_data = f"Redirecting to {redirect_to[request_path]}".encode('utf-8')
-    client_socket.send(response_data)
-    client_socket.close()
-    return '307 Temporary Redirect'
+                    '/rt': 'http://ritaj.bzu.edu'}
+    if request_path in redirect_to:
+        redirect_url = redirect_to[request_path]
+        response_headers = f"HTTP/1.1 307 Temporary Redirect\r\nLocation: {redirect_url}\r\n\r\n"
+        response_data = f"Redirecting to {redirect_url}".encode('utf-8')
+        client_socket.send(response_headers.encode('utf-8'))
+        client_socket.send(response_data)
+        client_socket.close()        
+    else:
+        handle_404(client_socket)
 
 def handle_404(client_socket, lang='en'):
     """
@@ -49,11 +54,12 @@ def handle_404(client_socket, lang='en'):
 
 def send_response(client_socket, status_code, content_type, data):
     """
-        To sent a header & data to a client
+        To send a header & data to a client
         Args:
             client_socket, status_code, content_type, data
     """
-    response_headers = f"HTTP/1.1 {status_code}\r\nContent-Type: {content_type}\r\n\r\n"
+    status_line = f"HTTP/1.1 {status_code}\r\n"
+    response_headers = f"{status_line}Content-Type: {content_type}\r\n\r\n"
     response_data = response_headers.encode('utf-8') + data
     client_socket.send(response_data)
 
@@ -63,18 +69,18 @@ def handle_request(client_socket, request_path):
             client_socket, request_path takes and client socket to be send to and a request path to render
             handles all cases of temrory redirection & file doesn't exists
     """
+    file_path = request_path.lstrip('/')
+    lang = 'en'
+    
     if request_path in ['/', '/index.html', '/main_en.html', '/en']:
         file_path = 'en/index.html'
         lang = 'en'
-    elif request_path in ['/main_ar.html', '/ar']:
+    elif request_path in ['/main_ar.html', '/ar', '/ar/']:
         file_path = 'ar/index.html'
         lang = 'ar'
     elif request_path in ['/cr', '/so', '/rt']:
         status_code= temp_redirection(request_path, client_socket)
-        return
-    else:
-        file_path = request_path.lstrip('/')
-        lang = 'en' if file_path.startswith('en/') else 'ar'
+        return 
     try:
         with open(file_path, 'rb') as file:
             data = file.read()
@@ -86,19 +92,30 @@ def handle_request(client_socket, request_path):
 
 def handle_client(server_socket):
     """
-        To take requests from the users
-        Args:
-            Server_socket
+    To take requests from the users
+    Args:
+        Server_socket
     """
     client_socket, addr = server_socket.accept()
-    request = client_socket.recv(1024).decode('utf-8')
+    try:
+        request = client_socket.recv(1024).decode('utf-8')
+        if not request:
+            # possibly client disconnected
+            print(f"Empty request received from {addr}. Closing connection.")
+            client_socket.close()
+            return
 
-    print(f"Received request from {addr}:\n{request}")# Print HTTP request on the terminal
-    
-    request_parts = request.split(' ')# Extract the requested path
-    if len(request_parts) >= 2:
-        request_path = request_parts[1]
-        handle_request(client_socket, request_path) # Handle the request
+        print(f"Received request from {addr}:\n{request}")  # Print HTTP request on the terminal
+
+        request_parts = request.split(' ')  # Extract the requested path
+        if len(request_parts) >= 2:
+            request_path = request_parts[1]
+            handle_request(client_socket, request_path)  # Handle the request
+    except ConnectionResetError:
+        print(f"Connection reset by {addr}.")
+    finally:
+        client_socket.close()
+
 
 def start_server(localhost='127.0.0.1', port=9966):
     """
