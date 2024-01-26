@@ -1,6 +1,7 @@
 # Socket-WebServer-Networking-Project
 This repository is part of the course work of Computer-Networks.
 TCP communication, and a simple web server. Implementations and documentation with socket programming concepts.
+For teh solution look for Report pdf file.
 
 ## Structure
 - The project solution is devided into three parts:
